@@ -1,0 +1,55 @@
+.App {
+text-align: left;
+margin: 5%;
+margin-right: 70%;
+padding: 20px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color: #eaeaea;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0,0,0,0.3) 0px 30px 60px -30px, rgba(10,37,64,0.35) 0px -2px 6px 0px inset;
+}
+
+h1 {
+    color: brown;
+    box-shadow: 1px 1px 1px 2px;
+    opacity: 50%;
+    text-align: center;
+}
+
+button {
+    background-color: rgb(0, 0, 44);
+    color: white;
+    width: 100px;
+    padding: 7px;
+    font-size: large;
+    border: none;
+    margin-top: 10px;
+    border-radius: 6px;
+    margin-left: 85px;
+}
+
+ol, li {
+    background-color: #fad1d1;
+    border-radius: 6px;
+    color: rgb(0, 0, 44);
+}
+
+input {
+    padding: 10px;
+    border: 1px solid;
+    margin-left: 40px;
+}
+
+@media  screen and (max-width: 600px) {
+    .App {
+        margin: 25px
+    }
+
+     button {
+        margin-left: 80px;
+    }
+
+    input {
+        margin-left: 20px;
+    }
+    
+}
